@@ -1,0 +1,111 @@
+body{
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(hatter.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+    color:hsl(191, 100%, 50%);
+}
+#easy{
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(easy.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+    color:hsl(100, 100%, 50%);
+}
+#normal{
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(normal.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+    color:hsl(53, 100%, 50%);
+}
+#hard{
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(hard.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+    color:hsl(0, 100%, 38%);
+}
+h1{
+    font-size: 3.5rem;
+
+}
+.valasztasok{
+    margin-bottom: 30px;
+}
+.valasztasok button{
+    font-size: 7.5rem;
+    min-width: 160px;
+    margin: 0 10px;
+    border-radius: 250px;
+    background-color: hsl(200, 100%, 50%);
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+   
+}
+
+.valasztasok button:hover{
+    background-color: hsl(200, 100%, 70%);
+}
+.NehezsegValasztasok button{
+    font-size: 5.5rem;
+    min-width: 160px;
+    margin: 0 10px;
+    border-radius: 250px;
+    background-color: hsl(200, 100%, 50%);
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+   
+}
+#életDisplay {
+    font-size: 2.9rem;
+    margin-bottom: 0.8rem;
+}
+#játékosDisplay, #jancsiDisplay{
+    font-size: 2.5rem;
+}
+#eredményDisplay{
+    font-size: 5rem;
+    margin: 15px 0;
+}
+.pontokDisplay{
+    font-size: 2rem;
+}
+.zöld, #játékosPontokDisplay{
+    color: hsl(130, 84%, 54%);
+}
+.piros, #jancsiPontokDisplay{
+    color: hsl(0, 84%, 60%);
+}
